@@ -9,7 +9,11 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-                        <Text text="Hola"></Text>
+                        <Panel headerText="{i18n>pantallaSeleccion}">
+                            <Label id="label_envio" labelFor="id_envio" text="{i18n>envio}" class="sapUiSmallMargin"></Label>
+                            <Input id="id_envio" width="150px" class="sapUiSmallMarginEnd"></Input>
+                            <Label id="label_pais" labelFor="id_pais" text="{i18n>pais}" class="sapUiSmallMargin"></Label>
+                        </Panel>
                     </content>
 				</Page>
 			</pages>
